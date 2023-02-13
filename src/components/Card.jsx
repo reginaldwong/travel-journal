@@ -1,8 +1,11 @@
 import React from "react"
 
-const Card = () => {
+const Card = (props) => {
     return (
-        <h1>Card goes here</h1>
+        <div>
+            <img src={props.imageUrl} alt="" />
+            <h1>{props.title}</h1>
+        </div>
     )
 }
 
