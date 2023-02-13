@@ -72,3 +72,28 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+* {
+  border: 1px solid red;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+/* NAVBAR COMPONENT */
+
+nav {
+  display: flex;
+  background-color: #F55A5A;
+  justify-content: center;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding-block: 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar--icon {
+  margin-right: .8rem;
+}
+
