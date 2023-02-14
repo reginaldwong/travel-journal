@@ -79,6 +79,7 @@ select {
 
 body {
   font-family: Inter, sans-serif;
+  background-color: #121212;
 }
 
 section {
@@ -113,13 +114,15 @@ nav {
 .cards-list {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 1.5rem;
 }
 
 .card {
   display: flex;
   margin: 0 auto;
   max-width: 55rem;
+  border-bottom: 1px solid #F5F5F5;
+  padding-block: 2.5rem;
 }
 
 .card--location {
@@ -147,20 +150,23 @@ nav {
 
 .card--stats {
   flex-direction: column;
-  color: #2B283A;
-  align-self: center;
+  color: #FFFFFF;
   margin-left: 2.25rem;
+  margin-top: 2rem;
 }
 
 .card--title {
   font-size: 1.75rem;
+  margin-top: 1rem;
 }
 
 .card--dates {
   font-weight: 700;
   font-size: .9rem;
+  margin-top: 1.75rem;
 }
 
 .card--description {
-  font-size: 1rem;
+  font-size: .9rem;
+  margin-top: 1rem;
 }
