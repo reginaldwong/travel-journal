@@ -7,7 +7,7 @@ export default [
     startDate: "08 Feb, 2018",
     endDate: "10 Feb, 2018",
     description:
-      "Waterway for kayak tours & boat excursions, plus views of nearby cliffs, caves & rock formations.",
+      "Phang Nga Bay lies between southern Thailand's mainland and Phuket Island. Also known as Ao Phang Nga National Park, it's characterized by limestone cliffs and rock formations, as well as mangrove forests and small islands. Among the islands are Koh Tapu, known as James Bond Island for its appearance in a Bond film. Koh Phanak Island is known for its caves and lagoons. The bay's waters are dotted with coral reefs. ",
     imageUrl: "/public/assets/phuket.jpg",
   },
   {
@@ -18,7 +18,7 @@ export default [
     startDate: "09 Nov, 2018",
     endDate: "15 Nov, 2018",
     description:
-      "Tropical island dotted with all-inclusive resorts, white-sand beaches, coral reefs and lagoons.",
+      "Cayo Coco is a tropical island in the Jardines del Rey chain, off central Cuba. Known for its white-sand beaches and coral reefs, its northern coast is dotted with all-inclusive resorts. Natural features include lagoons and marshes that are home to birds such as the white ibis as well as a native colony of pink flamingos that's ranked among the largest in the Americas. ",
     imageUrl: "/public/assets/cuba.jpg",
   },
   {
@@ -29,7 +29,7 @@ export default [
     startDate: "17 Feb, 2019",
     endDate: "18 Feb, 2019",
     description:
-      "Landmark mountain with a park & year-round lookout at the peak offering sweeping views of the city.",
+      "Mount Royal is a large intrusive rock hill or small mountain in the city of Montreal, immediately west of Downtown Montreal, Quebec, Canada. The best-known hypothesis for the origin of the name Montreal is that the hill is the namesake for the city.",
     imageUrl: "/public/assets/montreal.jpg",
   },
   {
@@ -40,7 +40,7 @@ export default [
     startDate: "10 Mar, 2019",
     endDate: "12 Mar, 2019",
     description:
-      "Mountain on Hong Kong island (elevation 1,181 feet) known for its skyline & waterfront views.",
+      "Victoria Peak is a hill on the western half of Hong Kong Island. It is also known as Mount Austin, and locally as The Peak only generally. With an elevation of 552 metres, it is the tallest hill on Hong Kong Island, and the 29th tallest in the territory of Hong Kong.",
     imageUrl: "/public/assets/hongkong.jpg",
   },
   {
@@ -51,7 +51,7 @@ export default [
     startDate: "20 Mar, 2019",
     endDate: "21 Mar, 2019",
     description:
-      "Well-known facade of a 17th-century church destroyed by fire, with an on-site religious museum.",
+      "The Ruins of Saint Paul's are the ruins of a 17th-century Catholic religious complex in Santo António, Macau, China. They include what was originally St. Paul's College and the Church of St. Paul also known as Mater Dei, a 17th-century Portuguese church dedicated to Saint Paul the Apostle.",
     imageUrl: "/public/assets/macau.jpg",
   },
   {
@@ -62,7 +62,7 @@ export default [
     startDate: "04 Sept, 2022",
     endDate: "11 Sept, 2022",
     description:
-      "Well-known attraction comprising of large resorts, dining, shops & 4 theme parks with rides & shows.",
+      "The Walt Disney World Resort, also called Walt Disney World or Disney World, is an entertainment resort complex in Bay Lake and Lake Buena Vista, Florida, United States, near the cities of Orlando and Kissimmee.",
     imageUrl: "/public/assets/disneyworld.jpg",
   },
   {
@@ -73,7 +73,18 @@ export default [
     startDate: "05 Dec, 2022",
     endDate: "06 Dec, 2022",
     description:
-      "17th-century tower with an observatory, planetarium, event hall & spiral ramp instead of stairs.",
+      "The Round Tower is a 17th-century tower in Copenhagen, Denmark, one of the many architectural projects of Christian IV of Denmark. Built as an astronomical observatory, it is noted for its equestrian staircase, a 7.5-turn helical corridor leading to the platform at the top, and its views over Copenhagen.",
     imageUrl: "/public/assets/copenhagen.jpg",
+  },
+  {
+    id: 7,
+    title: "Nyhavn",
+    location: "Copenhagen",
+    googleMapsUrl: "https://goo.gl/maps/bo2MyX3qRni4ZoWm7",
+    startDate: "07 Dec, 2022",
+    endDate: "08 Dec, 2022",
+    description:
+      "Nyhavn is a 17th-century waterfront, canal and entertainment district in Copenhagen, Denmark. Stretching from Kongens Nytorv to the harbour front just south of the Royal Playhouse, it is lined by brightly coloured 17th and early 18th century townhouses and bars, cafes and restaurants. ",
+    imageUrl: "/public/assets/nyhavn.jpg",
   },
 ];
