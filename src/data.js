@@ -56,7 +56,7 @@ export default [
   },
   {
     id: 6,
-    title: "DisneyWorld",
+    title: "Walt Disney World",
     location: "Orlando",
     googleMapsUrl: "https://goo.gl/maps/c4G53tF7XC6J2ygz8",
     startDate: "04 Sept, 2022",

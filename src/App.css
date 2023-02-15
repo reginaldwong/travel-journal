@@ -72,15 +72,24 @@ select {
     scroll-behavior: auto !important;
   }
 }
-/* 
-* {
+
+/* * {
   border: 1px solid red;
 } */
 
 body {
   font-family: Inter, sans-serif;
-  background-color: #121212;
+  
 }
+
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+  .card--stats {
+    color: #FFFFFF;
+  }
+} */
 
 section {
   padding-left: 20px;
@@ -115,6 +124,7 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .card {
@@ -150,7 +160,7 @@ nav {
 
 .card--stats {
   flex-direction: column;
-  color: #FFFFFF;
+  color: #2B283A;
   margin-left: 2.25rem;
   margin-top: 2rem;
 }
@@ -169,4 +179,23 @@ nav {
 .card--description {
   font-size: .9rem;
   margin-top: 1rem;
+}
+
+/* FOOTER COMPONENT */
+
+footer {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .35rem;
+}
+
+.footer--links {
+  display: flex;
+}
+
+.footer--links > li {
+  list-style-type: none;
+  margin: 0 1rem;
 }
