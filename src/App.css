@@ -112,6 +112,10 @@ nav {
   margin-right: .8rem;
 }
 
+.navbar--subtitle {
+  font-size: .75rem;
+}
+
 /* Card Component */
 .card--image {
   width: 225px;
@@ -199,3 +203,4 @@ footer {
   list-style-type: none;
   margin: 0 1rem;
 }
+
