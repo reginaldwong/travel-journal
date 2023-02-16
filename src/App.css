@@ -73,9 +73,9 @@ select {
   }
 }
 
-/* * {
+* {
   border: 1px solid red;
-} */
+}
 
 body {
   font-family: Inter, sans-serif;
@@ -122,6 +122,7 @@ nav {
   height: 320px;
   border-radius: 5px;
   object-fit: cover;
+  margin-right: 2.5rem;
 }
 
 .cards-list {
@@ -137,6 +138,23 @@ nav {
   max-width: 55rem;
   border-bottom: 1px solid #F5F5F5;
   padding-block: 2.5rem;
+}
+
+@media (max-width: 576px) {
+  .card {
+    flex-direction: column;
+  }
+  .card--image {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .card--stats {
+    width: 75vw;
+    margin: 0 auto;
+  }
+  section {
+    
+  }
 }
 
 .card--location {
@@ -165,7 +183,7 @@ nav {
 .card--stats {
   flex-direction: column;
   color: #2B283A;
-  margin-left: 2.25rem;
+  /* margin-left: 2.25rem; */
   margin-top: 2rem;
 }
 
