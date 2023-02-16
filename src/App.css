@@ -72,8 +72,8 @@ select {
     scroll-behavior: auto !important;
   }
 }
-/* 
-* {
+
+/* * {
   border: 1px solid red;
 } */
 
@@ -81,15 +81,6 @@ body {
   font-family: Inter, sans-serif;
   
 }
-
-/* @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-  }
-  .card--stats {
-    color: #FFFFFF;
-  }
-} */
 
 section {
   padding-left: 20px;
@@ -152,7 +143,7 @@ nav {
     width: 90vw;
     margin: 0 auto;
   }
-  section {
+  .footer--links > li {
     
   }
 }
@@ -209,12 +200,12 @@ footer {
   background-color: #F55A5A;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: .35rem;
 }
 
 .footer--links {
   display: flex;
+  padding-left: 0;
 }
 
 .footer--links > li {
