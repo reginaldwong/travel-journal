@@ -3,7 +3,7 @@ import React from "react"
 const Card = (props) => {
     return (
         <div className="card">
-            <img src={props.item.imageUrl} alt={props.item.alt} className="card--image" />
+            <img src={`/public/assets/${props.item.imageUrl}`} alt={props.item.alt} className="card--image" />
             <div className="card--stats">
             <div className="card--location"> <img src="/public/assets/pin.png" alt="pin" /> <h2>{props.item.location} </h2>
                 <a href={props.item.googleMapsUrl} className="card--link" target="_blank">View on Google Maps</a>
