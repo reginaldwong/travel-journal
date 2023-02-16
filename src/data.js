@@ -84,15 +84,27 @@ export default [
     alt: "Inside of The Round Tower",
   },
   {
-    id: 7,
+    id: 8,
     title: "Nyhavn",
     location: "Copenhagen",
     googleMapsUrl: "https://goo.gl/maps/bo2MyX3qRni4ZoWm7",
     startDate: "07 Dec, 2022",
     endDate: "08 Dec, 2022",
     description:
-      "Nyhavn is a 17th-century waterfront, canal and entertainment district in Copenhagen, Denmark. Stretching from Kongens Nytorv to the harbour front just south of the Royal Playhouse, it is lined by brightly coloured 17th and early 18th century townhouses and bars, cafes and restaurants. ",
+      "Nyhavn is a 17th-century waterfront, canal and entertainment district in Copenhagen, Denmark. Stretching from Kongens Nytorv to the harbour front just south of the Royal Playhouse, it is lined by brightly coloured 17th and early 18th century townhouses and bars, cafes and restaurants.",
     imageUrl: "/public/assets/nyhavn.jpg",
     alt: "Street view of Nyhavn",
+  },
+  {
+    id: 9,
+    title: "La Sagrada Familia",
+    location: "Barcelona",
+    googleMapsUrl: "https://goo.gl/maps/XCREzhTmFdVWT3sz5",
+    startDate: "30 Apr, 2023",
+    endDate: "01 May, 2023",
+    description:
+      "The Basílica i Temple Expiatori de la Sagrada Família, shortened as the Sagrada Família, is an unfinished church in the Eixample district of Barcelona, Catalonia, Spain. It is the largest unfinished Catholic church in the world.",
+    imageUrl: "/public/assets/barcelona.jpg",
+    alt: "white concrete building near trees in daytime",
   },
 ];
