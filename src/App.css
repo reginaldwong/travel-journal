@@ -72,10 +72,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
+/* 
 * {
   border: 1px solid red;
-}
+} */
 
 body {
   font-family: Inter, sans-serif;
@@ -128,8 +128,6 @@ nav {
 .cards-list {
   display: flex;
   flex-direction: column;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .card {
@@ -143,13 +141,15 @@ nav {
 @media (max-width: 576px) {
   .card {
     flex-direction: column;
+    width: 90vw;
+    padding-block: 1.5rem;
   }
   .card--image {
-    width: 80vw;
+    width: 100vw;
     margin: 0 auto;
   }
   .card--stats {
-    width: 75vw;
+    width: 90vw;
     margin: 0 auto;
   }
   section {
