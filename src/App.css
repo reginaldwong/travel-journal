@@ -93,6 +93,7 @@ nav {
   display: flex;
   background-color: #F55A5A;
   justify-content: center;
+  align-items: center;
   color: #FFFFFF;
   font-weight: 500;
   padding-block: 20px;
@@ -105,6 +106,18 @@ nav {
 
 .navbar--subtitle {
   font-size: .75rem;
+}
+
+@media (max-width: 576px) {
+  nav {
+    padding-block: 10px;
+  }
+  .navbar--title {
+    font-size: 0.8rem;
+  }
+  .navbar--subtitle {
+    font-size: .6rem;
+  }
 }
 
 /* Card Component */
